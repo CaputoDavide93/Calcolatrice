@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="script.js"></script>
+    <link href="stile.css" rel="stylesheet" type="text/css">
+    <title>Calcolatrice Con Tastierino</title>
+</head>
+<body>
+<form>
+    <p align="center">
+    <span>--------------</span>
+    </p>
+    <table class="tg" align="center">
+
+        <tr>
+            <th class="tg-093g"><input type="button" value="7" onclick="calcola(this,'7')"></th>
+            <th class="tg-hgcj"><input type="button" value="8" onclick="calcola(this,'8')"></th>
+            <th class="tg-hgcj"><input type="button" value="9" onclick="calcola(this,'9')"></th>
+            <th class="tg-hgcj"><input type="button" value="/" onclick="operazioni(this,'/')"></th>
+        </tr>
+        <tr>
+            <td class="tg-hgcj"><input type="button" value="4" onclick="calcola(this,'4')"></td>
+            <td class="tg-hgcj"><input type="button" value="5" onclick="calcola(this,'5')"></td>
+            <td class="tg-hgcj"><input type="button" value="6" onclick="calcola(this,'6')"></td>
+            <td class="tg-hgcj"><input type="button" value="x" onclick="operazioni(this,'x')"></td>
+        </tr>
+        <tr>
+            <td class="tg-hgcj"><input type="button" value="1" onclick="calcola(this,'1')"></td>
+            <td class="tg-hgcj"><input type="button" value="2" onclick="calcola(this,'2')"></td>
+            <td class="tg-hgcj"><input type="button" value="3" onclick="calcola(this,'3')"></td>
+            <td class="tg-hgcj"><input type="button" value="-" onclick="operazioni(this,'-')"></td>
+        </tr>
+        <tr>
+            <td class="tg-hgcj"><input type="button" value="0" onclick="calcola(this,'0')"></td>
+            <td class="tg-hgcj"><input type="button" value="=" onclick="risultato(this,'=')"></td>
+            <td class="tg-hgcj"><input type="button" value="c" onclick="cancella(this)"></td>
+            <td class="tg-hgcj"><input type="button" value="+" onclick="operazioni(this,'+')"></td>
+        </tr>
+    </table>
+
+
+</form>
+
+
+
+
+</body>
+</html>
